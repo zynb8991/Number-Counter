@@ -1,0 +1,54 @@
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #f2e490;
+}
+*{
+    box-sizing: border-box;
+    outline: 0;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+main .counter{
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255, 0.287);
+    border-radius: 50px;
+    -webkit-user-select: none;
+    -ms-user-select: none; 
+    user-select: none; 
+}
+main .counter #stepper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 23px;
+    color: #9ea518;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.3);
+    cursor: grab;
+    overflow: hidden;
+}
+main .counter #stepper span {
+    position: absolute;
+}
+main .counter button{
+    border: 0;
+    background:none;
+    font-size: 18px;
+    color: #222;
+    height: 25px;
+    cursor: pointer;
+}
